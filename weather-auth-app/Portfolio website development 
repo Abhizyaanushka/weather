@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Professional Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow animate_animated animate_fadeInDown">
+    <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">ABHIZYA</h1>
+      <nav>
+        <a href="#about" class="text-gray-600 hover:text-black px-4">About</a>
+        <a href="#portfolio" class="text-gray-600 hover:text-black px-4">Portfolio</a>
+        <a href="#Skills" class="text-gray-600 hover:text-black px-4">skills</a>
+        <a href="#contact" class="text-gray-600 hover:text-black px-4">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-gray-100 animate_animated animate_fadeIn">
+    <h2 class="text-4xl font-semibold mb-4">Hi, I'm Abhizya</h2>
+    <p class="text-xl text-gray-600">Web Developer | Programmer | Designer</p>
+    <a href="#portfolio" class="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700">View My Work</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 px-4 max-w-4xl mx-auto animate_animated animate_fadeInLeft">
+    <h3 class="text-3xl font-bold mb-4">About Me</h3>
+    <p class="text-lg text-gray-700">
+      I’m a student with a passion for building impactful digital experiences. With experience in [skills], I enjoy solving real-world problems.
+      
+
+> I am a creative and reliable web developer specializing in building clean, responsive, and interactive websites. With expertise in HTML5, CSS3, JavaScript, React, and Bootstrap, I bring ideas to life with modern design and functionality. I use Git and GitHub for version control and project management. I enjoy turning client requirements into functional, visually appealing web experiences.and im very active in LinkedIn and i will post all my activities.
+    </p>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="bg-white py-16 px-4 animate_animated animate_fadeInRight">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-3xl font-bold mb-10 text-center">Portfolio</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-100 rounded-lg shadow p-5">
+          <h4 class="font-semibold text-xl mb-2 text=center">Project Title</h4>
+          <p class="text-gray-600">Short description of the project.</p>
+          <a href="#" class="text-blue-500 hover:underline">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- skills-->
+  <section id="Skills" class="py-16 px-4 bg-gray-50 animate_animated animate_fadeInUp">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-6">Skills</h3>
+      <ul>
+        <li>HTML5 & CSS3</li>
+        <li>JavaScript & React</li>
+        <li>Bootstrap & Responsive Design</li>
+        <li>Git & GitHub</li>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 px-4 bg-white text-center animate_animated animate_fadeIn">
+    <h3 class="text-3xl font-bold mb-6">Contact</h3>
+    <h2>Contact</h2>
+    <p>Email:abhiyadath@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/abhizya-anushka-a0a205290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">abhizya</a></p>
+    <p>GitHub: <a href="https://github.com/Abhizyaanushka">abhizya</a></p>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 py-6 text-center text-gray-500 animate_animated animate_fadeIn">
+    © 2025 Abhizya . All rights reserved.
+  </footer>
+
+</body>
+</html>
